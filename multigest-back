@@ -1,7 +1,7 @@
 server {
     listen 8081;
     listen [::]:8081;
-    root /mnt/e/developpements/multigest-back;
+    root /mnt/e/developpements/multigest-back/public;
 
     location / {
         # try to serve file directly, fallback to index.php
