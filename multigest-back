@@ -1,7 +1,7 @@
 server {
     listen 8081;
     listen [::]:8081;
-    root /mnt/e/developpements/multigest-back/public;
+    root /var/ww/html//multigest-back/public;
 
     location / {
         # try to serve file directly, fallback to index.php
@@ -40,6 +40,6 @@ server {
         return 404;
     }
 
-    error_log /mnt/e/developpements/multigest-back/logs/error.log;
-    access_log /mnt/e/developpements/multigest-back/logs/access.log;
+    error_log /var/ww/html/multigest-back/logs/error.log;
+    access_log /var/ww/html/multigest-back/logs/access.log;
 }
